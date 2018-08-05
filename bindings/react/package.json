@@ -1,11 +1,11 @@
 {
-  "name": "react-onsenui",
-  "version": "1.11.1",
+  "name": "test-react-onsenui",
+  "version": "1.11.2",
   "description": "Onsen UI - React Components for Hybrid Cordova/PhoneGap Apps with Material Design and iOS UI components",
   "scripts": {
     "build": "cross-env NODE_ENV=production rollup -c",
     "prepublish": "npm run build",
-    "postpublish": "npm run gen-docs",
+    "postpublish": "",
     "dev": "cd ../../ && gulp serve --react",
     "test": "karma start",
     "gen-docs": "node ./docgen.js"
